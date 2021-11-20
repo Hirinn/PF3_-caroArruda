@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poupança</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Poupança </div>
+
+        <div class="input">
+             <input placeholder="Seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual valor será aplicado?" type="number" id='valor' required="required">
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é a taxa de juros? coloque em números sem o %"  type="number" id='juros' required="required">
+        </div>
+        
+        <div class="input">
+          <input placeholder="Quantas parcelas serão mensalmente? Ex: 10" type="number" id='parcelas' required="required">
+     </div>
+
+        <button id='calcular' type='submit'> Calcular </button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Da 14 ae (づ￣ ³￣)づ </footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
